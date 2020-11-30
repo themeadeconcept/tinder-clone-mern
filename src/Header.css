@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center; /* these two lines will center everything in the div */
+  justify-content: space-between; /* Adds equal space between items in div, but stretches items */
+  z-index: 100;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.header__logo {
+  object-fit: contain;
+  height: 40px;
+}
+
+.header__icon {
+  padding: 20px;
+}
